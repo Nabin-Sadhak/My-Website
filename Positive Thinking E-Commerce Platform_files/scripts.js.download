@@ -1,0 +1,29 @@
+document.getElementById('shuffle').addEventListener('click', function() {
+    // Logic to shuffle and display content
+    alert('Shuffling content...');
+});
+
+document.getElementById('recent').addEventListener('click', function() {
+    // Logic to display recent content
+    alert('Displaying recent content...');
+});
+
+document.getElementById('listen').addEventListener('click', function() {
+    // Logic to listen to the text
+    alert('Listening to the text...');
+});
+
+document.getElementById('reviews').addEventListener('click', function() {
+    // Logic to display reviews
+    alert('Displaying reviews...');
+});
+
+document.getElementById('donate').addEventListener('click', function() {
+    // Logic to donate
+    alert('Redirecting to donation page...');
+});
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting the traditional way
+    alert('Form submitted!'); // Replace with actual form submission logic
+});
